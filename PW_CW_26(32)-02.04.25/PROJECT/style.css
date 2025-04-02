@@ -1,0 +1,64 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #f8f8f8;
+  padding: 40px;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600; /* semi-bold */
+  font-size: 32px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #cfcfcf;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-weight: 300; /* light */
+}
+
+.card h2 {
+  font-size: 20px;
+  font-weight: 600; /* semi-bold */
+  margin-bottom: 5px;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.icon-text img {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.company-details {
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+
+
